@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IST 110 Learning Portfolio – YOUR NAME</title>
+  <style>
+    :root {
+      --primary:#0d6efd;
+      --dark:#20232a;
+      --light:#f5f5f5;
+      --maxWidth:1100px;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;font-family:"Segoe UI",Helvetica,Arial,sans-serif;}
+    body{background:var(--light);color:var(--dark);line-height:1.6;}
+    header{background:var(--dark);color:#fff;padding:1rem 0;}
+    nav{max-width:var(--maxWidth);margin:auto;display:flex;justify-content:space-between;align-items:center;}
+    nav a{color:#fff;text-decoration:none;margin:0 .75rem;transition:opacity .2s;}
+    nav a:hover{opacity:.75;}
+    .container{max-width:var(--maxWidth);margin:auto;padding:2rem 1rem;}
+    h2{margin:1.5rem 0 .75rem;font-size:1.75rem;color:var(--primary);}
+    section{scroll-margin-top:5rem;}
+    .card{background:#fff;padding:1.5rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.06);margin-bottom:1.5rem;}
+    .grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));}
+    footer{background:var(--dark);color:#aaa;text-align:center;padding:1rem 0;font-size:.9rem;}
+    @media(max-width:600px){nav{flex-direction:column;}nav a{margin:.5rem 0;}}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div><strong>IST 110 Portfolio</strong></div>
+      <div>
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#weekly">Weekly Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#feedback">Feedback</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="card">
+        <p>Hi, I’m <em>[YOUR NAME]</em>, currently majoring in Information Sciences & Technology at Penn State. This portfolio captures my progress through IST 110, from foundational concepts to hands‑on projects.</p>
+      </div>
+    </section>
+
+    <!-- Learning Journey Overview -->
+    <section id="journey">
+      <h2>Learning Journey</h2>
+      <div class="card">
+        <p>A quick snapshot of how my understanding evolved week by week – from grasping basic information systems to building data‑driven prototypes.</p>
+      </div>
+    </section>
+
+    <!-- Weekly Coursework -->
+    <section id="weekly">
+      <h2>Weekly Coursework</h2>
+      <div class="grid">
+        <!-- Repeat this card block for each week -->
+        <div class="card">
+          <h3>L01 – Introduction</h3>
+          <p><strong>Key deliverable:</strong> Discussion post on digital identity.</p>
+          <p><strong>Reflection:</strong> What I learned about online presence and privacy.</p>
+        </div>
+        <div class="card">
+          <h3>L02 – Information Systems Basics</h3>
+          <p><strong>Artifact:</strong> Infographic PDF</p>
+          <p><strong>Reflection:</strong> Realized the role of systems thinking in IT projects.</p>
+        </div>
+        <!-- ...add L03‑L14 in the same pattern -->
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Group Project – XYZ Prototype</h3>
+          <p><a href="[demo‑link]" target="_blank">Live Demo</a> &nbsp;|&nbsp; <a href="[slides‑link]" target="_blank">Slides</a></p>
+          <p><strong>My role:</strong> Front‑end developer & UX designer.</p>
+          <p><strong>Reflection:</strong> Learned agile collaboration and user‑testing.</p>
+        </div>
+        <div class="card">
+          <h3>Individual Project – Data Viz Challenge</h3>
+          <p><img src="[thumbnail]" alt="Data Viz screenshot" style="width:100%;border-radius:8px;margin:0.5rem 0;"/></p>
+          <p><strong>Stack:</strong> Python, Plotly, GitHub Pages</p>
+          <p><strong>Reflection:</strong> Strengthened data storytelling skills.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills Gained</h2>
+      <div class="card">
+        <ul>
+          <li>HTML & CSS basics</li>
+          <li>Version control (Git)</li>
+          <li>Information system modeling</li>
+          <li>Data visualization (Tableau / Plotly)</li>
+          <li>Team collaboration & agile workflow</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Feedback -->
+    <section id="feedback">
+      <h2>Feedback & Reflection</h2>
+      <div class="card">
+        <p>“Excellent progress in translating theoretical concepts into practical deliverables.” – Instructor</p>
+        <p>“UI design is clean and intuitive; consider deeper analysis in reflection sections.” – Peer</p>
+        <p>After implementing this feedback, I revised my reflections to be more evidence‑based and added accessibility checks to UI components.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 YOUR NAME · IST 110 Portfolio
+  </footer>
+</body>
+</html>
