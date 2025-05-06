@@ -1,15 +1,13 @@
 Shize Lin – Resume
 
 Contact Information
-Email: shizelin@email.com
-GitHub: github.com/LIN4718
+Email: svl6301@psu.edu
 Portfolio: https://lin4718.github.io
 
 Education
 The Pennsylvania State University
-Bachelor’s Degree in Progress, Expected Graduation: 2026
-Major: [Your Major Here]
+Major: Economics
 
 Portfolio Summary
-This portfolio showcases my weekly learning outcomes from the IST 110 course, including class assignments, project reflections, and skill development.
+This portfolio showcases my weekly learning outcomes from the IST 110 course, including assignments, project reflections, and skill development.
 By building and organizing a personal website, I learned the basics of HTML, web structure, and content organization.
